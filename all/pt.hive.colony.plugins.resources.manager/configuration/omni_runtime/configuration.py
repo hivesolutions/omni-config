@@ -50,7 +50,7 @@ configuration = {
             }
         },
         "parameters" : {
-            "default_database_prefix" : "base_runtime_"
+            "default_database_prefix" : "runtime_"
         }
     },
     "authentication" : {

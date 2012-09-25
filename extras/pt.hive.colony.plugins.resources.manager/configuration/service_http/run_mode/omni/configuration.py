@@ -92,7 +92,7 @@ configuration = {
                     "/"
                 ],
                 "/" : {
-                    "target" : "/colony_dynamic/rest/mvc/frontdoor_site/",
+                    "target" : "/dynamic/rest/mvc/frontdoor_site/",
                     "recursive_redirection" : True,
                     "force_secure" : False
                 }
@@ -104,7 +104,7 @@ configuration = {
                     "/"
                 ],
                 "/" : {
-                    "target" : "/colony_dynamic/rest/mvc/omni/",
+                    "target" : "/dynamic/rest/mvc/omni/",
                     "recursive_redirection" : True,
                     "force_secure" : True
                 }
@@ -126,67 +126,67 @@ configuration = {
             "/"
         ],
         "/omni" : {
-            "target" : "/colony_dynamic/rest/mvc/omni/",
+            "target" : "/dynamic/rest/mvc/omni/",
             "recursive_redirection" : True,
             "force_secure" : True
         },
         "/adm" : {
-            "target" : "/colony_dynamic/rest/mvc/omni_web_adm/",
+            "target" : "/dynamic/rest/mvc/omni_web_adm/",
             "recursive_redirection" : True,
             "force_secure" : True
         },
         "/crm" : {
-            "target" : "/colony_dynamic/rest/mvc/omni_web_crm/",
+            "target" : "/dynamic/rest/mvc/omni_web_crm/",
             "recursive_redirection" : True,
             "force_secure" : True
         },
         "/doc" : {
-            "target" : "/colony_dynamic/rest/mvc/omni_web_doc/",
+            "target" : "/dynamic/rest/mvc/omni_web_doc/",
             "recursive_redirection" : True,
             "force_secure" : True
         },
         "/ivm" : {
-            "target" : "/colony_dynamic/rest/mvc/omni_web_ivm/",
+            "target" : "/dynamic/rest/mvc/omni_web_ivm/",
             "recursive_redirection" : True,
             "force_secure" : True
         },
         "/pos" : {
-            "target" : "/colony_dynamic/rest/mvc/omni_web_pos/",
+            "target" : "/dynamic/rest/mvc/omni_web_pos/",
             "recursive_redirection" : True,
             "force_secure" : True
         },
         "/pum" : {
-            "target" : "/colony_dynamic/rest/mvc/omni_web_pum/",
+            "target" : "/dynamic/rest/mvc/omni_web_pum/",
             "recursive_redirection" : True,
             "force_secure" : True
         },
         "/sam" : {
-            "target" : "/colony_dynamic/rest/mvc/omni_web_sam/",
+            "target" : "/dynamic/rest/mvc/omni_web_sam/",
             "recursive_redirection" : True,
             "force_secure" : True
         },
         "/srm" : {
-            "target" : "/colony_dynamic/rest/mvc/omni_web_srm/",
+            "target" : "/dynamic/rest/mvc/omni_web_srm/",
             "recursive_redirection" : True,
             "force_secure" : True
         },
         "/util" : {
-            "target" : "/colony_dynamic/rest/mvc/omni_web_util/",
+            "target" : "/dynamic/rest/mvc/omni_web_util/",
             "recursive_redirection" : True,
             "force_secure" : True
         },
         "/" : {
-            "target" : "/colony_dynamic/rest/mvc/omni_web_adm/",
+            "target" : "/dynamic/rest/mvc/omni_web_adm/",
             "recursive_redirection" : True,
             "force_secure" : True
         }
     },
     "contexts" : {
         "resolution_order" : [
-            "/colony_dynamic",
+            "/dynamic",
             "/omni_web_error"
         ],
-        "/colony_dynamic" : {
+        "/dynamic" : {
             "handler" : "colony",
             "allow_redirection" : False,
             "request_properties" : {}
