@@ -1,0 +1,16 @@
+{
+    "type" : "container",
+    "sub_type" : "configuration",
+    "id" : "pt.hive.omni.configuration.omni.frontdoor_site_main",
+    "configuration_id" : "pt.hive.colony.plugins.resources.resource_manager",
+    "name" : "Frontdoor Site Main Omni Configuration",
+    "short_name" : "Frontdoor Site Main Omni",
+    "description" : "The frontdoor site main configuration for the omni profile",
+    "version" : "1.0.0",
+    "author" : "Hive Solutions Lda. <development@hive.pt>",
+    "dependencies" : [],
+    "resources" : [
+            "configuration/frontdoor_site_main/run_mode/omni/configuration.py",
+            "configuration/frontdoor_site_main/run_mode/omni/resources.xml"],
+    "extra_resources" : ["configuration/frontdoor_site_main/run_mode/omni/configuration.pyc"]
+}
