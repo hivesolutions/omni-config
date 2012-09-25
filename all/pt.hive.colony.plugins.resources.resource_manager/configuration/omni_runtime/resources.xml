@@ -34,7 +34,7 @@
     xsi:schemaLocation="http://www.hive.pt xsd/resources.xsd">
 
     <plugin_configuration>
-        <plugin_id>pt.hive.omni.plugins.base.runtime</plugin_id>
+        <plugin_id>pt.hive.omni.plugins.runtime</plugin_id>
         <resource>
             <name>configuration</name>
             <type>python</type>
