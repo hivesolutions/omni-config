@@ -2,7 +2,7 @@
 
 <!--
  Hive Omni ERP
- Copyright (C) 2008 Hive Solutions Lda.
+ Copyright (C) 2008-2012 Hive Solutions Lda.
 
  This file is part of Hive Omni ERP.
 
@@ -23,9 +23,9 @@
 <!--
  __author__    = João Magalhães <joamag@hive.pt>
  __version__   = 1.0.0
- __revision__  = $LastChangedRevision: 72 $
- __date__      = $LastChangedDate: 2008-10-21 23:29:54 +0100 (Ter, 21 Out 2008) $
- __copyright__ = Copyright (c) 2008 Hive Solutions Lda.
+ __revision__  = $LastChangedRevision$
+ __date__      = $LastChangedDate$
+ __copyright__ = Copyright (c) 2008-2012 Hive Solutions Lda.
  __license__   = GNU General Public License (GPL), Version 3
 -->
 
@@ -42,13 +42,13 @@
             </first_operand>
             <second_operand>
                 <type>string</type>
-                <data>omni</data>
+                <data>omni_update</data>
             </second_operand>
         </equals_expression>
     </validation>
 
     <plugin_configuration>
-        <plugin_id>pt.hive.colony.plugins.main.service.http</plugin_id>
+        <plugin_id>pt.hive.colony.plugins.service.http</plugin_id>
         <resource>
             <name>service_configuration</name>
             <type>python</type>

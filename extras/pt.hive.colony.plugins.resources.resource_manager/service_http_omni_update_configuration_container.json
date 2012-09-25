@@ -1,0 +1,16 @@
+{
+    "type" : "container",
+    "sub_type" : "configuration",
+    "id" : "pt.hive.omni.configuration.omni_update.service_http",
+    "configuration_id" : "pt.hive.colony.plugins.resources.resource_manager",
+    "name" : "Service Http Omni Update Configuration",
+    "short_name" : "Service Http Omni Update",
+    "description" : "The service http configuration for the omni update profile",
+    "version" : "1.0.0",
+    "author" : "Hive Solutions Lda. <development@hive.pt>",
+    "dependencies" : [],
+    "resources" : [
+            "configuration/service_http/run_mode/omni_update/configuration.py",
+            "configuration/service_http/run_mode/omni_update/resources.xml"],
+    "extra_resources" : ["configuration/service_http/run_mode/omni_update/configuration.pyc"]
+}
