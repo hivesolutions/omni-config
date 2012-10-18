@@ -82,12 +82,12 @@ configuration = {
         "site" : "http://frontdoorhq.com/",
         "base_domain" : "https://%s.frontdoorhq.com/",
         "base" : "https://app.frontdoorhq.com/",
-        "adm" : "https://app.frontdoorhq.com/adm/",
-        "crm" : "https://app.frontdoorhq.com/crm/",
-        "ivm" : "https://app.frontdoorhq.com/ivm/",
-        "pos" : "https://app.frontdoorhq.com/pos/",
-        "pum" : "https://app.frontdoorhq.com/pum/",
-        "sam" : "https://app.frontdoorhq.com/sam/",
-        "srm" : "https://app.frontdoorhq.com/srm/"
+        "adm" : "omni_web_adm/",
+        "crm" : "omni_web_crm/",
+        "ivm" : "omni_web_ivm/",
+        "pos" : "omni_web_pos/",
+        "pum" : "omni_web_pum/",
+        "sam" : "omni_web_sam/",
+        "srm" : "omni_web_srm/"
     }
 }
