@@ -81,13 +81,6 @@ configuration = {
     "paths" : {
         "site" : "http://frontdoorhq.com/",
         "base_domain" : "https://%s.frontdoorhq.com/",
-        "base" : "https://app.frontdoorhq.com/",
-        "adm" : "omni_web_adm/",
-        "crm" : "omni_web_crm/",
-        "ivm" : "omni_web_ivm/",
-        "pos" : "omni_web_pos/",
-        "pum" : "omni_web_pum/",
-        "sam" : "omni_web_sam/",
-        "srm" : "omni_web_srm/"
+        "base" : "https://app.frontdoorhq.com/"
     }
 }
