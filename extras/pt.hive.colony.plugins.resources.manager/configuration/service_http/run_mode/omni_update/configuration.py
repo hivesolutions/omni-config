@@ -78,14 +78,14 @@ configuration = {
             "handler" : "file",
             "allow_redirection" : False,
             "request_properties" : {
-                "base_path" : "$plugin{pt.hive.omni.plugins.web_error}/omni_web_error/web_error/resources"
+                "base_path" : "$plugin{pt.hive.omni.plugins.web_error}/omni_web_error/resources"
             }
         },
         "/" : {
             "handler" : "file",
             "allow_redirection" : False,
             "request_properties" : {
-                "base_path" : "$plugin{pt.hive.omni.plugins.web_error}/omni_web_error/web_error/resources",
+                "base_path" : "$plugin{pt.hive.omni.plugins.web_error}/omni_web_error/resources",
                 "default_page" : "http_service_down.html.tpl"
             }
         }
