@@ -1,0 +1,16 @@
+{
+    "type" : "container",
+    "sub_type" : "configuration",
+    "id" : "pt.hive.omni.configuration.omni.mail",
+    "configuration_id" : "pt.hive.colony.plugins.resources.resource_manager",
+    "name" : "Mail Omni Configuration",
+    "short_name" : "Mail Omni",
+    "description" : "The mail configuration for the omni profile",
+    "version" : "1.0.0",
+    "author" : "Hive Solutions Lda. <development@hive.pt>",
+    "dependencies" : [],
+    "resources" : [
+            "configuration/mail/run_mode/omni/configuration.py",
+            "configuration/mail/run_mode/omni/resources.xml"],
+    "extra_resources" : ["configuration/mail/run_mode/omni/configuration.pyc"]
+}
