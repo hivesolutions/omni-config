@@ -78,6 +78,10 @@ configuration = {
             "tls" : False
         }
     },
+    "pushi" : {
+        "app_key" : "274cb7377bdfd1f18eabe6eb7b43879ad821ce13d3c1a9400590fc0fe58ebd31",
+        "app_secret" : "d1bbb71be5ed3b516fc6fb29cde1425f17a537ce2b6e4867dfc26f260e5e11e6"
+    },
     "paths" : {
         "site" : "http://frontdoorhq.com/",
         "base_domain" : "https://%s.frontdoorhq.com/",
