@@ -79,9 +79,9 @@ configuration = {
         }
     },
     "pushi" : {
-        "app_id" : "24e8ee9d21e1feb9bc2f02f337eb71a8b624621f0cc3d83179cb70437242b531",
-        "app_key" : "274cb7377bdfd1f18eabe6eb7b43879ad821ce13d3c1a9400590fc0fe58ebd31",
-        "app_secret" : "d1bbb71be5ed3b516fc6fb29cde1425f17a537ce2b6e4867dfc26f260e5e11e6"
+        "app_id" : "825ec73e07f58ed735690d01c7672bd2a737d00412b988bf2f9603c351f77b4c",
+        "app_key" : "a1e0192596fbbf740c41fffd5226948901f02e2a085f5427f1f47a6b4718b59d",
+        "app_secret" : "cea84d1474750959b22661f58dc4a7c26e63151196fb465fefe272eb8c060e2e"
     },
     "paths" : {
         "site" : "http://frontdoorhq.com/",
