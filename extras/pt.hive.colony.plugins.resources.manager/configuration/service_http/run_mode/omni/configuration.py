@@ -136,7 +136,7 @@ configuration = {
             "force_secure" : True
         },
         "/crm" : {
-            "target" : "/dynamic/rest/mvc/omni_web_crm/",
+            "target" : "/dynamic/rest/mvc/omni_crm/",
             "recursive_redirection" : True,
             "force_secure" : True
         },

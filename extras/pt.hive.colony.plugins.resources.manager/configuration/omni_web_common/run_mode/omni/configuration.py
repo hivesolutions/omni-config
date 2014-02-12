@@ -49,7 +49,7 @@ configuration = {
     ],
     "alias" : {
         "omni_web_adm" : "adm",
-        "omni_web_crm" : "crm",
+        "omni_crm" : "crm",
         "omni_web_doc" : "doc",
         "omni_web_ivm" : "ivm",
         "omni_web_pos" : "pos",
