@@ -131,7 +131,7 @@ configuration = {
             "force_secure" : True
         },
         "/adm" : {
-            "target" : "/dynamic/rest/mvc/omni_web_adm/",
+            "target" : "/dynamic/rest/mvc/omni_adm/",
             "recursive_redirection" : True,
             "force_secure" : True
         },
@@ -176,7 +176,7 @@ configuration = {
             "force_secure" : True
         },
         "/" : {
-            "target" : "/dynamic/rest/mvc/omni_web_adm/",
+            "target" : "/dynamic/rest/mvc/omni_adm/",
             "recursive_redirection" : True,
             "force_secure" : True
         }
