@@ -146,7 +146,7 @@ configuration = {
             "force_secure" : True
         },
         "/ivm" : {
-            "target" : "/dynamic/rest/mvc/omni_web_ivm/",
+            "target" : "/dynamic/rest/mvc/omni_ivm/",
             "recursive_redirection" : True,
             "force_secure" : True
         },
