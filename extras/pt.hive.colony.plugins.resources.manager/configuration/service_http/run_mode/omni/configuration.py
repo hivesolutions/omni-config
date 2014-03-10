@@ -171,7 +171,7 @@ configuration = {
             "force_secure" : True
         },
         "/util" : {
-            "target" : "/dynamic/rest/mvc/omni_web_util/",
+            "target" : "/dynamic/rest/mvc/omni_util/",
             "recursive_redirection" : True,
             "force_secure" : True
         },

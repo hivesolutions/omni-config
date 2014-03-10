@@ -56,6 +56,6 @@ configuration = {
         "omni_web_pum" : "pum",
         "omni_web_sam" : "sam",
         "omni_web_srm" : "srm",
-        "omni_web_util" : "util"
+        "omni_util" : "util"
     }
 }
