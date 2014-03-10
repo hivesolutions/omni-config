@@ -161,7 +161,7 @@ configuration = {
             "force_secure" : True
         },
         "/sam" : {
-            "target" : "/dynamic/rest/mvc/omni_web_sam/",
+            "target" : "/dynamic/rest/mvc/omni_sam/",
             "recursive_redirection" : True,
             "force_secure" : True
         },

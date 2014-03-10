@@ -54,7 +54,7 @@ configuration = {
         "omni_ivm" : "ivm",
         "omni_web_pos" : "pos",
         "omni_web_pum" : "pum",
-        "omni_web_sam" : "sam",
+        "omni_sam" : "sam",
         "omni_web_srm" : "srm",
         "omni_util" : "util"
     }
