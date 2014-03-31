@@ -156,7 +156,7 @@ configuration = {
             "force_secure" : True
         },
         "/pum" : {
-            "target" : "/dynamic/rest/mvc/omni_web_pum/",
+            "target" : "/dynamic/rest/mvc/omni_pum/",
             "recursive_redirection" : True,
             "force_secure" : True
         },
