@@ -141,7 +141,7 @@ configuration = {
             "force_secure" : True
         },
         "/doc" : {
-            "target" : "/dynamic/rest/mvc/omni_web_doc/",
+            "target" : "/dynamic/rest/mvc/omni_doc/",
             "recursive_redirection" : True,
             "force_secure" : True
         },
