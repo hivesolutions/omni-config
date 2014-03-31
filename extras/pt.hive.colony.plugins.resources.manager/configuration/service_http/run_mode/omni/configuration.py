@@ -151,7 +151,7 @@ configuration = {
             "force_secure" : True
         },
         "/pos" : {
-            "target" : "/dynamic/rest/mvc/omni_web_pos/",
+            "target" : "/dynamic/rest/mvc/omni_pos/",
             "recursive_redirection" : True,
             "force_secure" : True
         },
