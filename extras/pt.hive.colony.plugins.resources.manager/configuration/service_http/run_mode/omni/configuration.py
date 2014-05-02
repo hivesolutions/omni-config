@@ -166,7 +166,7 @@ configuration = {
             "force_secure" : True
         },
         "/srm" : {
-            "target" : "/dynamic/rest/mvc/omni_web_srm/",
+            "target" : "/dynamic/rest/mvc/omni_srm/",
             "recursive_redirection" : True,
             "force_secure" : True
         },
