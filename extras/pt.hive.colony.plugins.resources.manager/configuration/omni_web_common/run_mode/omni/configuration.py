@@ -55,7 +55,7 @@ configuration = {
         "omni_pos" : "pos",
         "omni_pum" : "pum",
         "omni_sam" : "sam",
-        "omni_web_srm" : "srm",
+        "omni_srm" : "srm",
         "omni_util" : "util"
     }
 }
