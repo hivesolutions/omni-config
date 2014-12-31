@@ -85,9 +85,9 @@ configuration = {
             "app_secret" : "4c6866bd685c70c9c33f661a7ddba2ec27b6774b3e941adce76eb4b9090c58c1"
         },
         "production" : {
-            "app_id" : "825ec73e07f58ed735690d01c7672bd2a737d00412b988bf2f9603c351f77b4c",
-            "app_key" : "a1e0192596fbbf740c41fffd5226948901f02e2a085f5427f1f47a6b4718b59d",
-            "app_secret" : "cea84d1474750959b22661f58dc4a7c26e63151196fb465fefe272eb8c060e2e"
+            "app_id" : "20b4522714b3eeb6137c58542c5c73f233471d06ad306b37222f942e9eb0f56c",
+            "app_key" : "dc86ed1303a323f7faf726d27aeff5af1cccb9789ed37ffe9569c55fe0948e6d",
+            "app_secret" : "b06d6c6bca5ecc8914a852ebf7bc8be0c510045ab05ca3505884fe81585f0aa2"
         }
     },
     "paths" : {
