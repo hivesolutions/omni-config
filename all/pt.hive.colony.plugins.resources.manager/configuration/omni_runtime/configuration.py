@@ -50,7 +50,7 @@ configuration = {
             }
         },
         "parameters" : {
-            "database_prefix" : "runtime_"
+            "database_prefix" : "omni_"
         }
     },
     "authentication" : {
