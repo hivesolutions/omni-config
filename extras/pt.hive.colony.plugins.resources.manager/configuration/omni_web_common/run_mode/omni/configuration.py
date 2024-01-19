@@ -38,7 +38,7 @@ __license__ = "Apache License, Version 2.0"
 """ The license for the module """
 
 configuration = {
-    "domain_regex" : "(?P<domain>[^\:\/\?\#]+).frontdoorhq.com",
+    "domain_regex" : r"(?P<domain>[^\:\/\?\#]+).frontdoorhq.com",
     "base_domains" : [
         "app",
         "api",
